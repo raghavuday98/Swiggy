@@ -1,0 +1,412 @@
+.navbar {
+    background-color: white;
+    height: 80px;
+    width: 1500px;
+    align-items: center;
+    display: flex;
+    border: 1px;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    z-index: 100;
+    box-shadow: 0px 0px 10px 0px rgb(180, 176, 176);
+}
+
+.logo {
+    height: 60px;
+    width: 50px;
+    background-image: url(swiggy\ logo.png);
+    background-size: cover;
+    position: absolute;
+    left: 100px;
+}
+
+.others {
+    height: 20px;
+    width: 35px;
+    position: absolute;
+    left: 200px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 50px;
+}
+
+.others:hover {
+    color: orange;
+}
+
+.navbar2 {
+    height: 80px;
+    width: 900px;
+    position: absolute;
+    left: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    color: #3d4151;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a:hover {
+    color: orange;
+}
+
+.body {
+
+    height: 1100px;
+    width: 1500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.items {
+
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    border-bottom: 2px solid rgb(221, 220, 220);
+
+}
+
+.items h2 {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.food {
+    height: 160px;
+    width: 1100px;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 180px;
+    display: flex;
+
+}
+
+.f {
+    height: 160px;
+    width: 130px;
+    display: flex;
+    background-color: burlywood;
+
+    margin-left: 20px;
+}
+
+.restaurant {
+    height: 800px;
+    width: 1100px;
+    display: flex;
+    position: absolute;
+    top: 450px;
+}
+
+.restaurant h2 {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.restaurant h3 {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 175px;
+    left: 10px;
+}
+
+.restaurant p {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: rgb(102, 101, 101);
+    position: absolute;
+    top: 205px;
+    left: 10px;
+
+}
+
+.r1 {
+    height: 284px;
+    width: 275px;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+
+.r2 {
+    height: 284px;
+    width: 275px;
+    position: absolute;
+    left: 400px;
+    top: 80px;
+}
+
+.r3 {
+    height: 284px;
+    width: 275px;
+    position: absolute;
+    left: 750px;
+    top: 80px;
+}
+
+.r4 {
+    height: 284px;
+    width: 275px;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+}
+
+
+.r5 {
+    height: 284px;
+    width: 275px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+.r6 {
+    height: 284px;
+    width: 275px;
+    position: absolute;
+    left: 750px;
+    top: 400px;
+}
+
+
+.pizzahut {
+    height: 185px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px -20px 30px 1px black inset;
+
+}
+
+.pizzahut p {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.ubq {
+    height: 185px;
+    width: 275px;
+    border-radius: 15px;
+    box-shadow: 0px -20px 30px 1px black inset
+}
+
+.ubq p {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.subway {
+    height: 185px;
+    width: 275px;
+    border-radius: 15px;
+    box-shadow: 0px -20px 30px 1px black inset;
+}
+
+.subway p {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.burgerking {
+    height: 185px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px -20px 30px 1px black inset;
+
+}
+
+.burgerking p {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.nic {
+    height: 185px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px -20px 30px 1px black inset
+}
+
+.nic p {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.mojo {
+    height: 185px;
+    width: 275px;
+    border-radius: 15px;
+    box-shadow: 0px -20px 30px 1px black inset;
+}
+
+.mojo p {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.nearby {
+    height: 30px;
+    width: 1000px;
+    position: absolute;
+    left: 200px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+
+}
+
+.suggestion {
+    height: 320px;
+    width: 1100px;
+    position: absolute;
+    left: 200px;
+    top: 1250px;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: repeat(3, 70px);
+    grid-gap: 10px;
+}
+
+.s {
+    height: 52px;
+    width: 250px;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.footer {
+    height: 500px;
+    width: 1520px;
+    background-color: #02060c;
+    position: absolute;
+    top: 1600px;
+    left: 0px;
+}
+
+.download {
+    height: 100px;
+    width: 1520px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    position: absolute;
+    left: 00px;
+    background-color: #f0f0f5;
+}
+
+.d-text {
+    position: absolute;
+    left: 200px;
+
+}
+
+.d-link {
+    height: 65px;
+    width: 440px;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+}
+
+.play-store {
+    height: 64px;
+    width: 200px;
+}
+
+.app-store {
+    height: 64px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+
+.footer-2 {
+
+    height: 400px;
+    width: 1150px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f1 {
+    height: 400px;
+    width: 175px;
+    margin-right: 50px;
+}
+
+.f1 h2 {
+    color: white;
+}
+
+.f1 p {
+    color: #FFFFFF99;
+}
+
+.f2 {
+    height: 400px;
+    width: 175px;
+    background-color: #3d4151;
+    margin-right: 50px;
+}
+
+.f3 {
+    height: 400px;
+    width: 175px;
+    background-color: #3d4151;
+    margin-right: 50px;
+}
+
+.f4 {
+    height: 400px;
+    width: 175px;
+    background-color: #3d4151;
+    margin-right: 50px;
+}
